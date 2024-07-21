@@ -273,6 +273,7 @@ nav a{
     cursor: pointer;
     font-size: 3rem;
     z-index: 10;
+    color: #dfdcdc;
   }
   
   .left-arrow {
@@ -330,7 +331,7 @@ nav a{
 .discounts-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: 25px;
 }
@@ -362,6 +363,7 @@ nav a{
 
 .discounts-right-text h1 {
   font-size: 28px;
+  font-weight: 700;
   color: black;
   margin: 0;
 }
@@ -399,9 +401,11 @@ nav a{
   height: 250px;
   object-fit: cover;
 }
-
+.discounts-card-name{
+  text-align: center;
+}
 .discounts-card-name h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: normal;
 }
 
@@ -413,6 +417,7 @@ nav a{
   cursor: pointer;
   font-size: 3rem;
   z-index: 10;
+  color: #dfdcdc;
 }
 
 .discounts-left-arrow {
@@ -466,7 +471,7 @@ nav a{
   }
 
   .discounts-scroll-arrow {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -485,18 +490,16 @@ nav a{
   }
 
   .discounts-scroll-arrow {
-    font-size: 1.2rem;
+    font-size: 3rem;
     padding: 5px 10px;
   }
 
   .discounts-left-arrow {
     left: 0;
-    bottom: 110px;
   }
 
   .discounts-right-arrow {
     right: 0;
-    bottom: 110px;
   }
 
   .discounts-right-text h1 {
