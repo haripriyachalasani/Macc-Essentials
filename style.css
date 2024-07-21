@@ -127,7 +127,7 @@ nav a{
         justify-content: flex-start;
     }
   }
-  /* NAV BAR CODE END */
+/* NAV BAR CODE END */
 
 /* HEARDER CODE START */
 .landing-header {
@@ -214,6 +214,7 @@ nav a{
     button {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
+        margin-top: 20px;
     }
   }
   /* HEADER CODE END */
@@ -316,7 +317,203 @@ nav a{
     }
   }
 /* new product section end */
+/* Weekely discounts section start */
+.weekly-discounts-section {
+  margin-bottom: 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.discounts-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.discounts-image-left {
+  flex: 1 1 40%;
+  max-width: 40%;
+}
+
+.discounts-image-left img {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.discounts-right {
+  flex: 1 1 60%;
+  max-width: 60%;
+  padding: 0 15px;
+  position: relative;
+}
+
+.discounts-right-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.discounts-right-text h1 {
+  font-size: 28px;
+  color: black;
+  margin: 0;
+}
+
+.discounts-right-text-btn {
+  margin-top: auto;
+  background-color: #d1cdcd;
+  color: black;
+}
+
+.discounts-cards-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.discounts-cards-wrapper {
+  display: flex;
+  transition: transform 0.3s ease;
+  scroll-behavior: smooth;
+}
+
+.discounts-card {
+  flex: 0 0 calc(50% - 20px);
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.discounts-card-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.discounts-card-name h4 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.discounts-scroll-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 3rem;
+  z-index: 10;
+}
+
+.discounts-left-arrow {
+  left: 10px;
+}
+
+.discounts-right-arrow {
+  right: 10px;
+}
+
+.discounts-card-discountvalue {
+  background-color: red;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: 90px;
+  top: 26px;
+}
+
+@media (max-width: 768px) {
+  .weekly-discounts-section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .discounts-container {
+    padding: 15px;
+  }
+
+  .discounts-image-left {
+    max-width: 100%;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .discounts-right {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .discounts-card {
+    flex: 0 0 calc(50% - 10px);
+    margin-right: 10px;
+  }
+
+  .discounts-card-image img {
+    height: 200px;
+  }
+
+  .discounts-scroll-arrow {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .discounts-card {
+    flex: 0 0 100%;
+    margin-right: 0;
+  }
+
+  .discounts-card + .discounts-card {
+    margin-top: 20px;
+  }
+
+  .discounts-card-image img {
+    height: 250px;
+  }
+
+  .discounts-scroll-arrow {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+
+  .discounts-left-arrow {
+    left: 0;
+    bottom: 110px;
+  }
+
+  .discounts-right-arrow {
+    right: 0;
+    bottom: 110px;
+  }
+
+  .discounts-right-text h1 {
+    font-size: 20px;
+  }
+
+  .discounts-right-text {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .discounts-card-name h4 {
+    font-size: 1rem;
+  }
+}
+
+/* Weekely discounts section end */
 
 /* FOOTER CODE START */
 footer{

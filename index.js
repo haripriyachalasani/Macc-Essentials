@@ -52,3 +52,57 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 // new product code end
+// Weekely Discounts Code start
+document.addEventListener('DOMContentLoaded', function() {
+    const wrapper = document.querySelector('.discounts-cards-wrapper');
+    const leftArrow = document.querySelector('.discounts-left-arrow');
+    const rightArrow = document.querySelector('.discounts-right-arrow');
+    const cardElements = document.querySelectorAll('.discounts-card');
+
+    function calculateCardDimensions() {
+        if (cardElements.length === 0) return { cardWidth: 0, visibleCards: 0 };
+        
+        const cardWidth = cardElements[0].offsetWidth + parseInt(window.getComputedStyle(cardElements[0]).marginRight, 10);
+        const wrapperWidth = wrapper.offsetWidth;
+        const visibleCards = Math.floor(wrapperWidth / cardWidth);
+        return { cardWidth, visibleCards };
+    }
+
+    let { cardWidth, visibleCards } = calculateCardDimensions();
+    let currentPosition = 0;
+
+    function updatePosition() {
+        wrapper.style.transform = `translateX(-${currentPosition * cardWidth}px)`;
+        updateArrowVisibility();
+    }
+
+    function updateArrowVisibility() {
+        leftArrow.style.display = currentPosition === 0 ? 'none' : 'block';
+        rightArrow.style.display = currentPosition >= cardElements.length - visibleCards ? 'none' : 'block';
+    }
+
+    leftArrow.addEventListener('click', () => {
+        if (currentPosition > 0) {
+            currentPosition--;
+            updatePosition();
+        }
+    });
+
+    rightArrow.addEventListener('click', () => {
+        if (currentPosition < cardElements.length - visibleCards) {
+            currentPosition++;
+            updatePosition();
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        ({ cardWidth, visibleCards } = calculateCardDimensions());
+        currentPosition = Math.min(currentPosition, cardElements.length - visibleCards);
+        updatePosition();
+    });
+
+    updateArrowVisibility();
+});
+
+
+// Weekely Section Code End
