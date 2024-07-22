@@ -22,8 +22,8 @@
         <ul class="sidebar">
             <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">ESSENTIALS</a></li>
+            <li><a href="#new-products-box">SHOP</a></li>
+            <li><a href="allproducts.html">ESSENTIALS</a></li>
             <li><a href="#">BEST SELLERS</a></li>
             <li><a href="#">ABOUT US</a></li>
             <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg></a></li>
@@ -31,8 +31,8 @@
         </ul>
         <ul class="top-navbar">
             <li class="hideOnMobile"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></a></li>
-            <li class="hideOnMobile"><a href="#">SHOP</a></li>
-            <li class="hideOnMobile"><a href="#">ESSENTIALS</a></li>
+            <li class="hideOnMobile"><a href="#new-products-box">SHOP</a></li>
+            <li class="hideOnMobile"><a href="allproducts.html">ESSENTIALS</a></li>
             <li id="company-name"><a href="#" style="color: blue;"><span style="color: red; ">Macc</span>Essentials</a></li>
             <li class="hideOnMobile"><a href="#">BEST SELLERS</a></li>
             <li class="hideOnMobile"><a href="#">ABOUT US</a></li>
@@ -57,7 +57,7 @@
     </section>
     <!-- Header Section Code end -->
     <!-- new products section start -->
-    <section class="new-products-section">
+    <section class="new-products-section" id="new-products-box">
         <h1>NEW PRODUCTS</h1>
         <div class="cards-container">
             <p class="scroll-arrow left-arrow"><i class="fa-solid fa-circle-arrow-left"></i></p>
@@ -124,7 +124,9 @@
             <div class="discounts-right">
                 <div class="discounts-right-text">
                     <h1>MACC WEEKLY DISCOUNT</h1>
-                    <button class="discounts-right-text-btn">VIEW ALL</button>
+                    <a href="allproducts.html">
+                        <button class="discounts-right-text-btn">VIEW ALL</button>
+                    </a>
                 </div>
                 <div class="discounts-cards-container">
                     <p class="discounts-scroll-arrow discounts-left-arrow"><i class="fa-solid fa-circle-arrow-left"></i></p>
@@ -182,7 +184,9 @@
             <div class="top-sellings-right">
                 <div class="top-sellings-right-text">
                     <h1>MACC TOP SELLINGS</h1>
-                    <button class="top-sellings-right-text-btn">VIEW ALL</button>
+                    <a href="allproducts.html">
+                        <button class="top-sellings-right-text-btn">VIEW ALL</button>
+                    </a>
                 </div>
                 <div class="top-sellings-cards-container">
                     <p class="top-sellings-scroll-arrow top-sellings-left-arrow"><i class="fa-solid fa-circle-arrow-left"></i></p>

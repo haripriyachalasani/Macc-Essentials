@@ -1,7 +1,7 @@
 // nav code start
 function showSidebar(){
     const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'flex'
+    sidebar.style.display = 'flex';
   }
   function hideSidebar(){
     const sidebar = document.querySelector('.sidebar')
@@ -156,3 +156,20 @@ document.addEventListener('DOMContentLoaded', function() {
     updateArrowVisibility();
 });
 // Top Sellings Section Code end
+// ALL PRODUCTS PAGE CODE
+
+document.querySelectorAll('.accordion-header').forEach(button => {
+    button.addEventListener('click', () => {
+      const accordionContent = button.nextElementSibling;
+
+      button.classList.toggle('active');
+
+      if (button.classList.contains('active')) {
+        accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+      } else {
+        accordionContent.style.maxHeight = 0;
+      }
+    });
+  });
+  
+  
