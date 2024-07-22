@@ -953,4 +953,134 @@ footer a:hover{
     width: 100%;
   }
 }
+/* checkout section code start */
+#checkout-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-between;
+}
 
+#checkout-section h1, h3 {
+  margin: 0 0 10px 0;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+  width: 95%;
+}
+
+#first-name, #last-name, #pin-code, #state {
+  width: 45.5%;
+}
+
+.saveandcontinue {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gotocart {
+  background: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.buttons-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.gotocart:hover {
+  background: none;
+  text-decoration: underline;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.checkout-right-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-checkout-div {
+  flex: 1;
+  min-width: 300px;
+}
+
+.checkout-right-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .checkout-right-image img {
+      width: 400px;
+      height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #checkout-section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .checkout-right-image, .left-checkout-div {
+      width: 100%;
+  }
+
+  form {
+      width: 100%;
+  }
+
+  input {
+      width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .saveandcontinue, .gotocart {
+      width: 100%;
+      text-align: center;
+  }
+
+  .buttons-div {
+      flex-direction: column;
+      align-items: stretch;
+  }
+}
+/* checkout code end */
