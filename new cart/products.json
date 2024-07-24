@@ -52,5 +52,191 @@
         "name":" Hand Gloves",
         "price": 290,
         "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Sanitizer",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 1,
+        "name":" Body Spray",
+        "price": 400,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Vitamin C",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Hand Gloves",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Sanitizer",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Face Mask",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" Deodorant",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 1,
+        "name":" Body Spray",
+        "price": 400,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Vitamin C",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Hand Gloves",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Sanitizer",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 1,
+        "name":" Body Spray",
+        "price": 400,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Vitamin C",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Hand Gloves",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Sanitizer",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Face Mask",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" Deodorant",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 1,
+        "name":" Body Spray",
+        "price": 400,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Vitamin C",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Hand Gloves",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Sanitizer",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 1,
+        "name":" Body Spray",
+        "price": 400,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Vitamin C",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Hand Gloves",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Sanitizer",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Face Mask",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" Deodorant",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 1,
+        "name":" Body Spray",
+        "price": 400,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Vitamin C",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Hand Gloves",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Sanitizer",
+        "price": 200,
+        "image": "image/4.png"
     }
 ]
