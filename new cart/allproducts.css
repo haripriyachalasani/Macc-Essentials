@@ -307,8 +307,7 @@ header{
     font-size: large;
 }
 .listProduct .item .price{
-    letter-spacing: 7px;
-    font-size: small;
+  margin-top: 15px;
 }
 .listProduct .item button{
     background-color: #353432;
@@ -317,6 +316,12 @@ header{
     padding: 5px 10px;
     margin-top: 10px;
     border-radius: 20px;
+}
+.listProduct .item button:hover{
+  background-color: red;
+}
+.listProduct .item:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* cart */
@@ -331,6 +336,11 @@ header{
     display: grid;
     grid-template-rows: 70px 1fr 70px;
     transition: .5s;
+}
+@media (max-width:435px){
+  .cartTab{
+    width: 390px;
+  }
 }
 body.showCart .cartTab{
     right: 0;
